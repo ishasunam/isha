@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 120x;
+    height: 70px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 148, 9);
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.nav-links li a:hover{
+    color: red;
+}
+
+.btn-login{
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(245, 231, 44);
+    border-style: none;
+    margin: 20px;
+
+}
+    .btn-login:hover{
+        background-color: rgba(38, 41, 240, 0.89);
+        cursor: pointer;
+    }
+    .nav-links li a{
+        color: rgba(15, 33, 199, 0.973);
+    }
+.nav-links li a:hover{
+    color: rgb(228, 239, 245);
+}
+.nav-links{
+    margin: 10px;
+}
+.big{
+    font-size: 49px;
+    color: green;
+}
+.small{
+    font-size: 20px;
+    color:green ;
+}
+.main-img{
+    width: 500px;
+    height: 400px;
+    padding-right: 20px;
+}
+
+.main{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.btn-GetStarted{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(245, 231, 44);
+    border-style: none;
+    margin: 20px;
+    
+}
+
+.btn-GetStarted:hover{
+
+    background-color: rgba(245, 232, 44, 0.616);
+
+    
+}
+
+.clients-logo-div{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clients-logo{
+    height: 7%;
+    width: 7%;
+    padding-left: 100px;
+}
+
+.ourclients-div{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color:white;
+   
+
+}
+
+.client-area{
+    background-color: rgba(128, 128, 128, 0.87);
+}
+.foot{
+    background-color: #37517e;
+    top: 0;
+    bottom: 0;
+    width:100%;
+    height: 30px;
+    padding-left:20px;
+    padding-top: 20px;
+} 
+
+    
